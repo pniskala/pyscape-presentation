@@ -12,7 +12,7 @@ How I have structured the presenation according to the template presenation_temp
 1. With some exceptions, each layer represents a slide.
 2. MASTER layer represents the template for the basic slides.
 3. TITLE layer represents the title slide.
-4. END layer represent the ending of the main presentation (e.g. the "Thank You & Acknowledgements" slide).
+4. END layer represents the ending of the main presentation (e.g. the "Thank You & Acknowledgements" slide).
 5. STOP indicates the end real ending of the presenation. The contents of the STOP layered are not converted to pdf in the Python script.
 6. NUMBER layer defines the placing and the style of the slide numbering that is used by the Python script.
 7. The regular slides of the presentation are included as layers between MASTER and END. Feel free to use any labels besides TITLE, MASTER, END, STOP or NUMBER for these layers. The same applies to backup/bonus slides after the official END slide.
