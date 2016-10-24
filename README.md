@@ -3,11 +3,11 @@ A script and a template file file for preparing presentations via Inkscape and P
 
 This simple Python script and the associated SVG file represent my workflow for preparing slideshow presentations, mainly for academic purposes. The idea is as follows:
 
-1. Create the presentation using Inkscape based on the template in presentation.svg.
+1. Create the presentation using Inkscape based on the template in presentation_template.svg.
 2. Convert the slides in the SVG file to PDF files and add the slide numbers using the Python script.
 3. Combine the slides (the multiple PDF files) into a presentation (a single PDF file).
 
-How I have structured the presenation according to the template presenation.svg:
+How I have structured the presenation according to the template presenation_template.svg:
 
 1. With some exceptions, each layer represents a slide.
 2. MASTER layer represents the template for the basic slides.
