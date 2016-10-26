@@ -1,9 +1,14 @@
 #!/usr/bin/python
 #
-# This script is supposed to convert a presentation made in inkscape and 
-# saved as SVG to seprate PDF files. You still need to combine the PDF files 
-# with pdftk (for example "pdftk slide*.pdf output presentation.pdf"). The 
-# script has a few assumptions:
+# This script converts a presentation made in inkscape and saved 
+# as SVG to a PDF presentation. This is done by converting layers in 
+# the SVG to individual pdf files and merging them. Merging will only 
+# be done if the 'pdftk' program is available. This would be done 
+# manually with the command:
+# 
+# pdftk slide*.pdf output presentation.pdf
+#
+# The script has a few assumptions:
 #
 # 1. Slide labeled "TITLE" is the first slide of the presentation (the title 
 #    slide, obviously)
@@ -19,7 +24,8 @@
 # 5. A layer labeled "NUMBER" should be plased somewhere after "STOP". It 
 #    should contain only the text "XY" positioned appropriately as a 
 #    placeholder for the slide number. If necessary, use the XML editor to 
-#    modify the name of this text field to "slidenumber".
+#    modify the 'name' property of this text field to "slidenumber".
+
 
 import xml.etree.ElementTree as et
 import sys
@@ -38,7 +44,7 @@ input_fname = str(sys.argv[1])
 # temp files directory
 tempdir = os.path.join (tempfile.gettempdir(), 'slides')
 
-# make sure directory is cleared of old files by deleting it 
+# make sure temp slide directory is cleared of old files by deleting it 
 # and all contents
 if os.path.exists(tempdir):
     shutil.rmtree(tempdir)
@@ -130,7 +136,8 @@ if pdftkloc is not None:
     shutil.rmtree(tempdir)
     
 else:
-   print ('Cannot join individual slide pdfs into single pdf as pdftk program is not found!')
+   print ('Cannot join individual slide pdfs into single pdf as pdftk program is not found.')
+   print ('You will find the individual slide pdfs in the directory:\n%s.' % tempdir)
    
 print ('Finished!')
 
