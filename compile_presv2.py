@@ -1,12 +1,18 @@
 #!/usr/bin/python
 #
 # This script converts a presentation made in inkscape and saved 
-# as SVG to a PDF presentation. This is done by converting layers in 
+# as SVG to a PDF presentation. 
+# 
+# Invoke the script on the command line with:
+#
+#  compile_presv2.py <yoursvgname.svg>
+#
+#This is done by converting layers in 
 # the SVG to individual pdf files and merging them. Merging will only 
 # be done if the 'pdftk' program is available. This would be done 
 # manually with the command:
 # 
-# pdftk slide*.pdf output presentation.pdf
+#  pdftk slide*.pdf output presentation.pdf
 #
 # The script has a few assumptions:
 #
@@ -25,7 +31,7 @@
 #    should contain only the text "XY" positioned appropriately as a 
 #    placeholder for the slide number. If necessary, use the XML editor to 
 #    modify the 'name' property of this text field to "slidenumber".
-
+#
 
 import xml.etree.ElementTree as et
 import sys
