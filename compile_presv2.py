@@ -1,35 +1,61 @@
-#This script is supposed to convert a presentation made in inkscape and saved as SVG to seprate PDF files. You still need to combine the PDF files with pdftk (for example "pdftk output slide*.pdf output presentation.pdf"). The script has a few assumptions:
-#1. Slide labeled "TITLE" is the first slide of the presentation (the title slide, obviously)
-#2. The master slide (the template for the presentation) is after the title slide
-#3. The final "thank you" slide is labeled "END"
-#4. Additional layer/slide labeled "STOP" is put after "END" and possible backup slides, so the script knows when to stop.
-#5. A layer labeled "NUMBER" should be plased somewhere after "STOP". It should contain only the text "XY" positioned appropriately as a placeholder for the slide number. If necessary, use the XML editor to modify the name of this text field to "slidenumber".
+#!/usr/bin/python
+#
+# This script is supposed to convert a presentation made in inkscape and 
+# saved as SVG to seprate PDF files. You still need to combine the PDF files 
+# with pdftk (for example "pdftk slide*.pdf output presentation.pdf"). The 
+# script has a few assumptions:
+#
+# 1. Slide labeled "TITLE" is the first slide of the presentation (the title 
+#    slide, obviously)
+#
+# 2. The master slide (the template for the presentation) is after the title 
+#    slide
+#
+# 3. The final "thank you" slide is labeled "END"
+#
+# 4. Additional layer/slide labeled "STOP" is put after "END" and possible 
+#    backup slides, so the script knows when to stop.
+#
+# 5. A layer labeled "NUMBER" should be plased somewhere after "STOP". It 
+#    should contain only the text "XY" positioned appropriately as a 
+#    placeholder for the slide number. If necessary, use the XML editor to 
+#    modify the name of this text field to "slidenumber".
 
 import xml.etree.ElementTree as et
 import sys
 import os
 import subprocess
+import shutil
+import glob
+import tempfile
+import distutils.spawn
 
+nargs = len(sys.argv)
 
-#the svg file to work on
-input_fname = 'presentation.svg'
+# the svg file to work on
+input_fname = str(sys.argv[1])
 
-#output directoory, make sure this exists
-outdir = './slides'
+# temp files directory
+tempdir = os.path.join (tempfile.gettempdir(), 'slides')
 
-#define temp nime for svg, you don't really need to worry about this
-tmp_fname = 'temppi.svg'
+# make sure directory is cleared of old files by deleting it 
+# and all contents
+if os.path.exists(tempdir):
+    shutil.rmtree(tempdir)
 
-#define some parameters
+# create the empty directory again
+os.makedirs(tempdir)
+
+# define temp name for svg, you don't really need to worry about this
+tmp_fname = os.path.join (tempdir, 'temppi.svg')
+
+# define some parameters
 label = "{http://www.inkscape.org/namespaces/inkscape}label" #namespace for inkscape label
 name = 'slidenumber' #just the name of the slidenumber quantity
 
-#read the svg file as XML tree
+# read the svg file as XML tree
 tree = et.parse(input_fname)
 root = tree.getroot()
-
-#change directory
-os.chdir(outdir)
 
 for child in root:
 	child.set('style','display:none')
@@ -42,9 +68,10 @@ for child in root:
 #	if child.get(label)='NUMBER'):
 
 slide_counter = -1
-print 'Let us start...'
+print ('Beginning pdf creation ...')
+print ('Creating individual slide pdf files in temporary directory:\n%s' % tempdir)
 for child in root:
-	print child.get(label)
+	print (child.get(label))
 #	print child.keys()
 #	print child.items()
 	if child.get(label)=='STOP':
@@ -54,7 +81,7 @@ for child in root:
 #		print 'TITLE'
 		child.set('style','display:inline')
 		tree.write(tmp_fname)
-		subprocess.call(['inkscape','-A','slide00.pdf',tmp_fname])
+		subprocess.call(['inkscape','-A', os.path.join(tempdir, 'slide00.pdf'), tmp_fname])
 		child.set('style','display:none')
 		slide_counter = 1
 		continue
@@ -68,7 +95,7 @@ for child in root:
 		numberlayer.set('style','display:none')
 		child.set('style','display:inline')
 		tree.write(tmp_fname)
-		subprocess.call(['inkscape','-A',('slide%02d.pdf' % slide_counter),tmp_fname])
+		subprocess.call(['inkscape','-A', os.path.join(tempdir, ('slide%02d.pdf' % slide_counter)), tmp_fname])
 		child.set('style','display:none')
 		slide_counter = slide_counter + 1
 	elif slide_counter > 0:
@@ -76,11 +103,35 @@ for child in root:
 		number.text = ('%02d' % slide_counter)
 		child.set('style','display:inline')
 		tree.write(tmp_fname)
-		subprocess.call(['inkscape','-A',('slide%02d.pdf' % slide_counter),tmp_fname])
+		subprocess.call(['inkscape','-A', os.path.join(tempdir, ('slide%02d.pdf' % slide_counter)), tmp_fname])
 		child.set('style','display:none')
 		slide_counter = slide_counter + 1
 
-print 'Finished!'
-#subprocess.call(['pdftk','slide*.pdf','cat output','presis.pdf'])
-#pdftk in1.pdf in2.pdf cat output out1.pdf
-#tree.write('drawing2.svg')
+# get the list of individual slide pdf files
+tmplist = glob.glob(os.path.join(tempdir, 'slide*.pdf'))
+
+# sort the file names so the slides are in the right order
+tmplist.sort ()
+
+# this works in python 2.7
+pdftkloc = distutils.spawn.find_executable ('pdftk')
+
+if pdftkloc is not None:
+    print ('Combining slide pdfs into single pdf using pdftk')
+
+    # use pdftk to catenate the pdfs into one
+    subprocess.call(['pdftk'] + tmplist + ['output', 'presentation.pdf'])
+    #pdftk in1.pdf in2.pdf cat output out1.pdf
+    #tree.write('drawing2.svg')
+
+    print ('Deleting temporary files')
+
+    # clean up
+    shutil.rmtree(tempdir)
+    
+else:
+   print ('Cannot join individual slide pdfs into single pdf as pdftk program is not found!')
+   
+print ('Finished!')
+
+
