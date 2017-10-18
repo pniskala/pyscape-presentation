@@ -17,4 +17,4 @@ How I have structured the presenation according to the template presenation_temp
 6. NUMBER layer defines the placing and the style of the slide numbering that is used by the Python script.
 7. The regular slides of the presentation are included as layers between MASTER and END. Feel free to use any labels besides TITLE, MASTER, END, STOP or NUMBER for these layers. The same applies to backup/bonus slides after the official END slide.
 
-The Python script has been tested using Python 2.7.6. Inkscape template has been tested with Inkscape 0.48.4. Both have been used on Linux Ubuntu 14.04.
+The Python script has been tested using Python 2.7.6. Inkscape template has been tested with Inkscape 0.92.
