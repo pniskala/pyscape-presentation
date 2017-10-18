@@ -1,4 +1,4 @@
-# pyscape-presentation
+# presentscape
 A script and a template file file for preparing presentations via Inkscape and Python.
 
 This simple Python script and the associated SVG file represent my workflow for preparing slideshow presentations, mainly for academic purposes. The idea is as follows:
@@ -19,11 +19,11 @@ How I have structured the presentation according to the template presentation_te
 
 to create the presentation from the presentation_template.svg run the following::
 
-    python pyscape.py presentation_template.svg
+    python presentscape.py presentation_template.svg
 
 On Linux, pyscape can also be run like a normal command, so the follwoing works::
 
-    pyscape.py presentation_template.svg
+    presentscape.py presentation_template.svg
 
 More instructions for creating the slides can be found in the pyscape.py file.
 
