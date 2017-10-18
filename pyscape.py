@@ -5,7 +5,7 @@
 #
 # Invoke the script on the command line with:
 #
-#  compile_presv2.py <yoursvgname.svg>
+#  pyscape.py <yoursvgname.svg>
 #
 # This is done by converting layers in the SVG to individual pdf files
 # and merging them. Merging will only be done if the 'pdftk' program is
