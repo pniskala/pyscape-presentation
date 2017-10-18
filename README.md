@@ -1,7 +1,7 @@
-# presentscape
+# pyscape-presentation
 A script and a template file file for preparing presentations via Inkscape and Python.
 
-This simple Python script and the associated SVG file represent my workflow for preparing slideshow presentations, mainly for academic purposes. The idea is as follows:
+This Python script (``presentscape.py``) and the associated SVG file represent my workflow for preparing slideshow presentations, mainly for academic purposes. The idea is as follows:
 
 1. Create the presentation using Inkscape based on the template in presentation_template.svg.
 2. Convert the slides in the SVG file to PDF files and add the slide numbers using the Python script.
