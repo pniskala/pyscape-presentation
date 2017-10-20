@@ -15,7 +15,7 @@
    height="1200"
    id="svg476674"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.92.2 (unknown)"
    sodipodi:docname="presentation_template.svg">
   <defs
      id="defs476676">
@@ -734,22 +734,23 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="2213.9786"
+     inkscape:cx="1718.2643"
      inkscape:cy="688.38063"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1176"
-     inkscape:window-x="1920"
-     inkscape:window-y="24"
+     inkscape:window-height="1028"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="false"
      inkscape:guide-bbox="true">
     <sodipodi:guide
        orientation="0,1"
        position="1757.1429,22.857143"
-       id="guide4192" />
+       id="guide4192"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata476679">
@@ -759,7 +760,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -793,42 +794,40 @@
        y="369.84622"
        xml:space="preserve"
        x="65.142288"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;filter:url(#filter21571-2-0);font-family:Sans;-inkscape-font-specification:Sans Bold"
-       sodipodi:linespacing="125%"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'Sans Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;filter:url(#filter21571-2-0)"
        id="text24035"><tspan
          id="tspan10548"
          y="369.84622"
          x="65.142288"
-         style="font-size:37.46947861px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.46947861px;line-height:125%;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
          sodipodi:role="line">The greatest presentation of all time,</tspan><tspan
          y="416.68307"
          x="65.142288"
-         style="font-size:37.46947861px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.46947861px;line-height:125%;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
          sodipodi:role="line"
          id="tspan3975">don't you think?</tspan></text>
     <text
        transform="matrix(1.9215639,0,0,1.9215639,-15.077121,-353.126)"
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;filter:url(#filter21559-0-9);font-family:Sans"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter21559-0-9)"
        x="66.693802"
        y="453.89297"
-       id="text24041"
-       sodipodi:linespacing="125%"><tspan
+       id="text24041"><tspan
          sodipodi:role="line"
          x="66.693802"
          y="453.89297"
-         style="font-size:20.81637764px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.81637764px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';fill:#ffffff;fill-opacity:1"
          id="tspan401160">S. Seagal, C. Norris, D. Lundgren,</tspan><tspan
          sodipodi:role="line"
          x="66.693802"
          y="479.91345"
-         style="font-size:20.81637764px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.81637764px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';fill:#ffffff;fill-opacity:1"
          id="tspan4151">S. Selänne, J. Litmanen</tspan><tspan
          id="tspan24045"
          sodipodi:role="line"
          x="66.693802"
          y="505.93393"
-         style="font-size:20.81637764px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor">Kokkola Cold Fusion Symposium</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.81637764px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';fill:#ffffff;fill-opacity:1">Kokkola Cold Fusion Symposium</tspan></text>
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
@@ -874,16 +873,15 @@
        sodipodi:nodetypes="ccccc" />
     <text
        id="text3702-2-3-2-1-9"
-       style="font-size:16.64832115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;filter:url(#filter21547-6-0-5-2-51);font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter21547-6-0-5-2-51)"
        x="1841.0105"
        xml:space="preserve"
        y="1060.9098"
-       sodipodi:linespacing="125%"
        transform="matrix(2.4026448,0,0,2.4026448,-4401.8448,-1521.1881)"><tspan
          id="tspan813703-4-3"
          name="slideTitle"
          sodipodi:role="line"
-         style="font-size:14.98348808px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.98348808px;line-height:125%;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
          x="1841.0105"
          y="1060.9098">S. Seagal, Kokkola Cold Fusion Symposium</tspan></text>
   </g>
@@ -895,47 +893,44 @@
      sodipodi:insensitive="true">
     <text
        id="text237983"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;filter:url(#filter21547-0-1-7-2);font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter21547-0-1-7-2)"
        x="959.12"
        xml:space="preserve"
        y="77.866661"
-       sodipodi:linespacing="125%"
        transform="matrix(1.503542,0,0,1.503542,-483.40031,-27.359293)"><tspan
          id="tspan237985"
          name="slideTitle"
          sodipodi:role="line"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1"
          x="959.12"
          y="77.866661"
          jessyink:autoText="slideTitle">The title of the slide is here</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text237987"
        y="703.99146"
        x="974.28082"
-       style="font-size:48px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          id="tspan237989"
-         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#00008a;fill-opacity:1;font-family:TeX Gyre Pagella;-inkscape-font-specification:TeX Gyre Pagella"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#00008a;fill-opacity:1"
          y="703.99146"
          x="974.28082"
          sodipodi:role="line">Further content.</tspan><tspan
-         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#00008a;fill-opacity:1;font-family:TeX Gyre Pagella;-inkscape-font-specification:TeX Gyre Pagella"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';text-align:center;text-anchor:middle;fill:#00008a;fill-opacity:1"
          y="763.99146"
          x="974.28082"
          sodipodi:role="line"
          id="tspan4942">Maybe some pictures, even?</tspan></text>
     <text
        id="text238007"
-       style="font-size:60.14168167px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        x="965.65601"
        xml:space="preserve"
-       y="552.93188"
-       sodipodi:linespacing="125%"><tspan
+       y="552.93188"><tspan
          id="tspan238009"
          name="slideTitle"
          sodipodi:role="line"
-         style="font-size:60.14168167px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#00008a;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60.14168167px;line-height:125%;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#00008a;fill-opacity:1"
          x="965.65601"
          y="552.93188"
          jessyink:autoText="slideTitle">Content be here.</tspan></text>
@@ -971,35 +966,34 @@
        transform="translate(-10.000015,109.9998)"
        id="g47464">
       <text
-         sodipodi:linespacing="125%"
          id="text24041-2"
          y="453.89297"
          x="400.10199"
-         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;filter:url(#filter21559-0-9-1);font-family:Sans"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter21559-0-9-1)"
          xml:space="preserve"
          transform="matrix(1.9215639,0,0,1.9215639,381.3145,-264.37922)"><tspan
-           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
            y="453.89297"
            x="400.10199"
            sodipodi:role="line"
            id="tspan47409">This work uses all kinds of resources from all kinds of places.</tspan><tspan
-           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
            y="483.89297"
            x="400.10199"
            sodipodi:role="line"
            id="tspan4925">We also have received funding from at least Academy</tspan><tspan
-           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
            y="513.89294"
            x="400.10199"
            sodipodi:role="line"
            id="tspan4927">of Finland and some other interesting place, we are very</tspan><tspan
-           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
-           y="543.89294"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+           y="543.89301"
            x="400.10199"
            sodipodi:role="line"
            id="tspan4929">thankful for that, honesly. Give us more money now.</tspan><tspan
-           style="font-size:24px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
-           y="573.89294"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+           y="573.89301"
            x="400.10199"
            sodipodi:role="line"
            id="tspan4931">Please.</tspan></text>
@@ -1035,42 +1029,39 @@
      sodipodi:insensitive="true">
     <text
        id="text237983-7"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;filter:url(#filter21547-0-1-7-4);font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter21547-0-1-7-4)"
        x="959.12"
        xml:space="preserve"
        y="77.866661"
-       sodipodi:linespacing="125%"
        transform="matrix(1.503542,0,0,1.503542,-483.40031,-27.359293)"><tspan
          id="tspan237985-4"
          name="slideTitle"
          sodipodi:role="line"
-         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1"
          x="959.12"
          y="77.866661"
          jessyink:autoText="slideTitle">This is a bonus slide</tspan></text>
     <text
-       sodipodi:linespacing="125%"
        id="text237987-5"
        y="703.99146"
        x="792.8299"
-       style="font-size:48px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        xml:space="preserve"><tspan
          id="tspan237989-2"
-         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#00008a;fill-opacity:1;font-family:TeX Gyre Pagella;-inkscape-font-specification:TeX Gyre Pagella"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48px;line-height:1.25;font-family:'TeX Gyre Pagella';-inkscape-font-specification:'TeX Gyre Pagella';fill:#00008a;fill-opacity:1"
          y="703.99146"
          x="792.8299"
          sodipodi:role="line">Further content.</tspan></text>
     <text
        id="text238007-5"
-       style="font-size:60.14168167px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
        x="965.65601"
        xml:space="preserve"
-       y="552.93188"
-       sodipodi:linespacing="125%"><tspan
+       y="552.93188"><tspan
          id="tspan238009-4"
          name="slideTitle"
          sodipodi:role="line"
-         style="font-size:60.14168167px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#00008a;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60.14168167px;line-height:125%;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#00008a;fill-opacity:1"
          x="965.65601"
          y="552.93188"
          jessyink:autoText="slideTitle">Content be here.</tspan></text>
@@ -1089,17 +1080,17 @@
      sodipodi:insensitive="true">
     <text
        id="text3702-2-3-2-1-9-8"
-       style="font-size:16.64832115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;display:inline;filter:url(#filter21547-6-0-5-2-51-3);font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:Sans;text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter21547-6-0-5-2-51-3)"
        x="1841.0105"
        xml:space="preserve"
        y="1060.9098"
-       sodipodi:linespacing="125%"
-       transform="matrix(2.4026448,0,0,2.4026448,-2587.5591,-1371.8465)"><tspan
+       transform="matrix(2.4026448,0,0,2.4026448,-2591.5591,-1371.8465)"
+       inkscape:label="slidenumber"><tspan
          id="tspan813703-4-3-9"
          name="slidenumber"
          sodipodi:role="line"
-         style="font-size:16.64832115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;font-family:TeX Gyre Adventor;-inkscape-font-specification:TeX Gyre Adventor"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.64832115px;line-height:125%;font-family:'TeX Gyre Adventor';-inkscape-font-specification:'TeX Gyre Adventor';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
          x="1841.0105"
-         y="1060.9098">XX</tspan></text>
+         y="1060.9098">NS</tspan></text>
   </g>
 </svg>
